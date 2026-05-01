@@ -1,7 +1,3 @@
-![Python](https://img.shields.io/badge/Python-3.11%2B-blue)
-![uv](https://img.shields.io/badge/uv-0.5+-orange)
-![License](https://img.shields.io/badge/License-MIT-green)
-
 # 🛡️ netsec-check
 
 **Python + uv で作るシンプルで美しいネットワークセキュリティチェックツール**
