@@ -1,0 +1,45 @@
+# 仮想環境
+.venv/
+venv/
+env/
+
+# Pythonキャッシュ
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# uv関連
+uv.lock          # ← 好みで外す人もいる（ここではコミット推奨）
+*.egg-info/
+.build/
+dist/
+
+# 開発ツール
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE / エディタ
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ログや一時ファイル
+*.log
+tmp/
+temp/
+
+# レポート出力（後で追加した場合用）
+*.json
+*.html
+reports/

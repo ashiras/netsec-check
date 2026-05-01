@@ -1,0 +1,24 @@
+[project]
+name = "netsec-check"
+version = "0.1.0"
+description = "Python + uvで作るネットワークセキュリティチェックツール"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "rich>=13.7",
+    "typer>=0.12",
+    "requests>=2.32",      # ← 追加
+]
+
+[project.scripts]
+netsec = "netsec.cli:app"
+
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[dependency-groups]
+dev = ["ruff", "pytest"]
+
+[tool.ruff]
+line-length = 120
